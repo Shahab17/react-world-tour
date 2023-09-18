@@ -15,3 +15,39 @@
     width: 80px;
     margin: 10px;
 }
+
+/* Responsive */
+@media screen and (max-width: 576px) {
+    .countries-container{
+        grid-template-columns: repeat(1, 1fr);
+         
+    }
+    .Country{
+        margin: 0px;
+        padding: 5px;
+    }
+    
+}
+
+@media screen and (min-width: 576px) and (max-width: 992px){
+    .countries-container{
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+    .Country{
+        margin: 0px;
+        padding: 5px;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1400px){
+    .countries-container{
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+/* @media screen and (min-width: 1400px) and (max-width: 1900px){
+    .countries-container{
+        grid-template-columns: repeat(5, 1fr);
+    }
+} */

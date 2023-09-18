@@ -32,7 +32,7 @@ const Countries = () => {
 
 
     return (
-        <div>
+        <div  >
             <h3>Countries: {countries.length} </h3>
             {/* visited countries */}
             <div>
